@@ -1,0 +1,14 @@
+.home_bg{
+    background: url('../imgs/frontPage.png');
+    width: 100vw;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    width: 100vw;
+    height: 400px;
+    background-color: pink;
+}

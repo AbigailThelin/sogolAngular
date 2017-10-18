@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head>
+        <title>SOGOL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./css/index.css" rel="stylesheet">
+        <link href="./css/home.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="yellowHeader"></div>
+        <img class="logo" src='./imgs/sogol-gold-logo.png' alt="logo" ui-sref='home'>
+        <ui-view></ui-view>
+
+    <!-- <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js'></script> -->
+    <script src="./js/angular/angular.js"></script>
+    <script src="./js/angular-ui-router/release/angular-ui-router.js"></script>
+    
+    <script src="./app/app.js"></script>
+    <script src='./app/mainCtrl.js'></script>
+
+    </body>
+</html>
